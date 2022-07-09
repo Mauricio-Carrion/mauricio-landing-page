@@ -53,7 +53,6 @@
   }
 }
 
-
 @media(max-width:730px) {
   .container {
     width: 450px;
@@ -74,6 +73,37 @@
 
   .main-ola {
     margin: 50px 0 60px 0;
+  }
 
+  .main-about section {
+    padding: 20px 0 50px;
+  }
+}
+
+@media(max-width:500px) {
+  .container {
+    width: 250px;
+  }
+
+  .main-about {
+    height: 980px;
+  }
+
+  .main-about section {
+    padding: 0 0 50px;
+  }
+}
+
+@media(max-width:320px) {
+  .container {
+    width: 250px;
+  }
+
+  .main-about {
+    height: 980px;
+  }
+
+  .main-about section {
+    padding: 0 0 50px;
   }
 }
