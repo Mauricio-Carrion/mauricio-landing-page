@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import './header.css';
+@import './main.css';
+@import './bootstrap.css';
+@import './buttons.css';
+@import './footer.css';
+@import './responsive-elements.css';
+@import './responsive-background.css'

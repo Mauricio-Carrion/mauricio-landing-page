@@ -1,0 +1,29 @@
+header {
+  padding: 30px;
+}
+
+header section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 60px;
+}
+
+header section h1 {
+  font-family: 'Great Vibes', cursive;
+  color: white;
+}
+
+header section nav ul {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+}
+
+header section nav ul li {
+  margin: 0 40px;
+}
+
+header section nav ul li a {
+  color: white;
+}

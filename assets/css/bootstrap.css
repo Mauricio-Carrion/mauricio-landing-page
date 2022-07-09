@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  vertical-align: baseline;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  width: 900px;
+  margin: 30px auto;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
