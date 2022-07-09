@@ -1,3 +1,13 @@
+@media(min-width:1700px) {
+  .container {
+    width: 1500px;
+  }
+
+  .main-services ul li figcaption {
+    margin: 0 200px;
+  }
+}
+
 @media(max-width:1400px) {
   .container {
     width: 800px;
@@ -94,9 +104,9 @@
   }
 }
 
-@media(max-width:320px) {
+@media(max-width:350px) {
   .container {
-    width: 250px;
+    width: 350px;
   }
 
   .main-about {
@@ -105,5 +115,9 @@
 
   .main-about section {
     padding: 0 0 50px;
+  }
+
+  .main-contato {
+    height: 800px;
   }
 }
