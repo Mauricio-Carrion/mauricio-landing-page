@@ -57,17 +57,6 @@
   }
 }
 
-@media(max-height:600px) {
-  .main-main {
-    height: 630px;
-  }
-
-  .main-ola {
-    margin: 30px 0 30px 0;
-    padding: 50px 30px;
-  }
-}
-
 @media(max-width:730px) {
   .container {
     width: 450px;
@@ -124,27 +113,5 @@
 
   .main-contato {
     height: 800px;
-  }
-}
-
-@media(max-height:900px) {
-  .main-main {
-    height: 2050px;
-  }
-
-  .main-ola {
-    margin: 500px 0 130px 0;
-    padding: 150px 0;
-  }
-}
-
-@media(min-height:680px) {
-  .main-main {
-    height: 1660px;
-  }
-
-  .main-ola {
-    margin: 250px 0 130px 0;
-    padding: 150px 0;
   }
 }
