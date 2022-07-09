@@ -6,6 +6,11 @@
   .main-services ul li figcaption {
     margin: 0 200px;
   }
+
+  .main-about section img {
+    margin: 0 0 0 300px;
+    padding: 50px;
+  }
 }
 
 @media(max-width:1400px) {
