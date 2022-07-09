@@ -1,3 +1,13 @@
+@media(min-width:1700px) {
+  .container {
+    width: 1500px;
+  }
+
+  .main-services ul li figcaption {
+    margin: 0 200px;
+  }
+}
+
 @media(max-width:1400px) {
   .container {
     width: 800px;
@@ -53,7 +63,6 @@
   }
 }
 
-
 @media(max-width:730px) {
   .container {
     width: 450px;
@@ -74,6 +83,41 @@
 
   .main-ola {
     margin: 50px 0 60px 0;
+  }
 
+  .main-about section {
+    padding: 20px 0 50px;
+  }
+}
+
+@media(max-width:500px) {
+  .container {
+    width: 250px;
+  }
+
+  .main-about {
+    height: 980px;
+  }
+
+  .main-about section {
+    padding: 0 0 50px;
+  }
+}
+
+@media(max-width:350px) {
+  .container {
+    width: 350px;
+  }
+
+  .main-about {
+    height: 980px;
+  }
+
+  .main-about section {
+    padding: 0 0 50px;
+  }
+
+  .main-contato {
+    height: 800px;
   }
 }

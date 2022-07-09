@@ -1,11 +1,5 @@
-@media(min-width:1920px) {
-  body {
-    width: 1903px;
-  }
-}
-
 @media(max-width:750px) {
   body {
-    width: 750px;
+    width: 760px;
   }
 }
