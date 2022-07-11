@@ -4,8 +4,20 @@
   background-color: #495057;
 }
 
+.btn-social-media:hover {
+  background-color: #212529;
+  box-shadow: 0 0 3px #212529;
+  transition: ease-out 0.5s;
+}
+
 .btn-cv {
   padding: 5px 15px;
   border-radius: 10px;
   background-color: #495057;
+}
+
+.btn-cv:hover {
+  background-color: #212529;
+  box-shadow: 0 0 3px #212529;
+  transition: ease-out 0.5s;
 }

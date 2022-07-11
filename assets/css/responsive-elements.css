@@ -55,6 +55,18 @@
   .main-services ul li figcaption {
     margin: 0 250px;
   }
+
+  .main-main header section {
+    flex-direction: column;
+  }
+
+  .main-main header section nav ul {
+    margin: 30px 0;
+  }
+
+  .main-main header section h1 {
+    font-size: 80px;
+  }
 }
 
 @media(max-width:730px) {
@@ -64,15 +76,6 @@
 
   .main-about {
     height: 760px;
-  }
-
-  .main-main header section {
-    flex-direction: column;
-  }
-
-  .main-main header section h1 {
-    font-size: 80px;
-    margin: 30px 0;
   }
 
   .main-ola {
@@ -86,7 +89,7 @@
 
 @media(max-width:500px) {
   .container {
-    width: 250px;
+    width: 400px;
   }
 
   .main-about {
@@ -96,11 +99,16 @@
   .main-about section {
     padding: 0 0 50px;
   }
+
+  .main-about {
+    height: 750px;
+  }
+
 }
 
-@media(max-width:350px) {
+@media(max-width:380px) {
   .container {
-    width: 350px;
+    width: 250px;
   }
 
   .main-about {
