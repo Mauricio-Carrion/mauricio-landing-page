@@ -1,7 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;1,300&display=swap");
-@import url("../node_modules/bootstrap/scss/bootstrap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;1,300&display=swap');
+@import url('../node_modules/bootstrap/scss/bootstrap');
+
+//Customizando Componentes Bootstrap
 .navbar-toggler {
   --bs-border-width: none;
   --bs-navbar-color: white;
@@ -16,6 +18,9 @@
   background-color: #E9ECEF !important;
 }
 
+//End Customizando Componentes Bootstrap
+
+
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +28,7 @@
   font-size: 100%;
   font: inherit;
   font-weight: 300;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: black;
   vertical-align: baseline;
   text-decoration: none;
@@ -31,11 +36,11 @@
 }
 
 #logo {
-  font-family: "Great Vibes", cursive;
+  font-family: 'Great Vibes', cursive;
 }
 
 header {
-  background: url("../images/Mainbackground.png") no-repeat;
+  background: url('../images/Mainbackground.png') no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -52,7 +57,7 @@ header {
 }
 
 .nav-link::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -85,10 +90,9 @@ header {
   font-weight: 400;
 }
 
-@media (max-width: 770px) {
+@media(max-width:770px) {
   #article-row {
     flex-direction: column !important;
   }
-}
 
-/*# sourceMappingURL=style.css.map */
+}
