@@ -3,143 +3,170 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=0.448">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Maurício Carrion</title>
+  <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
 <body>
-  <div class="main-main">
-    <header class="container">
-      <section>
-        <h1>Carrion</h1>
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
+  <!--Header-->
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-dark navbar-expand-lg bg-transparent">
+        <div class="container">
+          <!--Logo-->
+          <a id="logo" class="navbar-brand d-flex align-items-center fs-1 text-white" href="#">
+            Carrion
+          </a>
+          <!--End Logo-->
+          <!--Button Responsive-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--End Button Responsive-->
+          <!--Links-->
+          <section class="collapse navbar-collapse" id="navbarSupportedContent">
 
-            <li><a href="#">Sobre</a></li>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link fs-5 m-5 text-white" href="#">Home</a>
+              </li>
 
-            <li><a href="#">Serviços</a></li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 m-5 text-white" href="#">Sobre</a>
+              </li>
 
-            <li><a href="#">Contato</a></li>
-          </ul>
-        </nav>
+              <li class="nav-item">
+                <a class="nav-link fs-5 m-5 text-white" href="#">Serviços</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link fs-5 m-5 text-white" href="#">Contato</a>
+              </li>
+            </ul>
+
+          </section>
+        </div>
+      </nav>
+      <!--Texto Inicial-->
+      <section class="maindev">
+        <h1 class="row justify-content-center fs-1 ">Olá!</h1>
+        <h3 class="row justify-content-center fs-1 fw-bold">
+          Eu sou
+          <label class="row justify-content-center fs-1 fw-bold text-white" for="text">Desenvolvedor</label>
+        </h3>
       </section>
-    </header>
-
-    <main class="container">
-      <section class="main-ola">
-        <article>
-          <h1>Olá!</h1>
-          <h3>Eu sou <label for="text">Desenvolvedor</label></h3>
-          <ul>
-            <li>
-              <a href="#"><img src="./assets/images/icons8-f-do-facebook-50.png" alt="Facebook"
-                  class="btn-social-media"></a>
-            </li>
-
-            <li>
-              <a href="#"><img src="./assets/images/icons8-instagram-50.png" alt="Instagram"
-                  class="btn-social-media"></a>
-            </li>
-
-            <li>
-              <a href="#"><img class="btn-social-media" src="./assets/images/icons8-linkedin-2-50.png"
-                  alt="Linkedin"></a>
-            </li>
-          </ul>
-        </article>
-      </section>
-  </div>
-
-  <div class="main-about">
-    <section class="container">
-      <img src="./assets/images/istockphoto-476085198-170667a.jpg" alt="Me">
-      <article>
-        <h1>Sobre mim.</h1>
-        <h3>Designer & Desenvolvedor Web</h3>
-        <p>
+      <!--End Texto Inicial-->
+    </div>
+  </header>
+  <!--End Header-->
+  <!--About Me-->
+  <section>
+    <article id="article-row" class="container d-flex flex-row align-items-center p-5">
+      <img class="img-fluid m-3 p-3" src="./assets/images/istockphoto-476085198-170667a.jpg" alt="">
+      <article class="ms-3 mt-5">
+        <h1 class="text-dark">Sobre mim.</h1>
+        <h3 class="text-dark">Designer & Desenvolvedor Web</h3>
+        <p class="text-dark">
           I am Jerry Daniels Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
           Lorem Ipsum has been the industry's standard dummy text ever It has survived not only five centuries,<br>
           but also the leap into electronic but also the leap into electronic typesetting, remaining essentially
           unchanged.<br>
           It was popularized in the 1960s with the release of Letraset sheets containing.
         </p>
-        <a href="#" class="btn-cv">Download CV</a></button>
-        <a href="#" class="btn-cv">Contato</a></button>
       </article>
-    </section>
-  </div>
+  </section>
 
-  <div class="main-services">
-    <section class="container">
-      <article>
-        <h1>Serviços.</h1>
-        <ul>
-          <li>
-            <figcaption><img src="./assets/images/icons8-web-design-50.png" alt="Design"></figcaption>
-            <h3>Web Design</h3>
-            <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
-          </li>
 
-          <li>
-            <figcaption><img src="./assets/images/icons8-código-50.png" alt="Code"></figcaption>
-            <h3>Desenvolvimento</h3>
-            <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
-          </li>
-
-          <li>
-            <figcaption><img src="./assets/images/icons8-balanceador-de-carga-50.png" alt="Network"></figcaption>
-            <h3>Networking</h3>
-            <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
-          </li>
-        </ul>
-      </article>
-    </section>
-  </div>
-
-  <div class="main-contato">
-    <section class="container">
-      <article>
-        <h1>Entre em contato.</h1>
-        <ul>
-          <li>
-            <figcaption><img src="./assets/images/icons8-enviar-50.png" alt="Email"></figcaption>
-            <h3>Email</h3>
-          </li>
-          <li>
-            <figcaption><img src="./assets/images/icons8-telefone-50.png" alt="phone"></figcaption>
-            <h3>Telefone</h3>
-          </li>
-        </ul>
+  <section class="container-fluid d-flex flex-column align-items-center bg-light shadow-sm p-5">
+    <h1 class="m-4">Serviços.</h1>
+    <div class="row d-flex justify-content-center m-3">
+      <article class="card text-center m-2 shadow-sm border-0" style="width: 20rem;">
+        <div class="card-body">
+          <img class="card-title bg-dark rounded p-2 m-4" src="./assets/images/icons8-web-design-50.png" alt="">
+          <h5 class="card-subtitle mb-2 text-dark">Web Design</h5>
+          <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the
+            card's
+            content.</p>
+        </div>
       </article>
 
-      <article>
-        <form>
-          <div class="row">
-            <label for="Nome" class="row">
-              <input type="text" name="Nome" placeholder="Nome" required>
+      <article class="card text-center m-2 shadow-sm border-0" style="width: 20rem;">
+        <div class="card-body">
+          <img class="card-title bg-dark rounded p-2 m-4" src="./assets/images/icons8-código-50.png" alt="">
+          <h5 class="card-subtitle mb-2 text-dark">Desenvolvimento</h5>
+          <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the
+            card's
+            content.</p>
+        </div>
+      </article>
+
+      <article class="card text-center m-2 shadow-sm border-0" style="width: 20rem;">
+        <div class="card-body">
+          <img class="card-title bg-dark rounded p-2 m-4" src="./assets/images/icons8-balanceador-de-carga-50.png"
+            alt="">
+          <h5 class="card-subtitle mb-2 text-dark">Networking</h5>
+          <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the
+            card's
+            content.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <!--End About Me-->
+
+  <!--Contato-->
+  <section class="container p-3">
+    <article class="d-flex flex-column align-items-center">
+      <h1 class="m-4 text-dark">Entre em contato.</h1>
+      <div class="d-flex flex-row">
+        <div class="d-flex flex-column align-items-center ms-4 me-4">
+          <img src="./assets/images/icons8-enviar-50.png" class="bg-dark rounded p-1 m-4" alt="Email">
+          <h5 class="text-dark">Email</h5>
+        </div>
+
+        <div class="d-flex flex-column align-items-center ms-4 me-4">
+          <img src="./assets/images/icons8-telefone-50.png" class="bg-dark rounded p-1 m-4" alt="phone">
+          <h5 class="text-dark">Telefone</h5>
+        </div>
+      </div>
+    </article>
+
+    <article>
+      <form class="d-flex flex-column align-items-center p-3">
+        <div class="d-flex flex-column align-items-center">
+          <div class="d-flex flex-row">
+            <label class=" m-3" for="Nome">
+              <input class="bg-light shadow-sm form-control border-0" type="text" name="Nome" placeholder="Nome"
+                required>
             </label>
 
-            <label for="Email" class="row">
-              <input type="email" id="Email" name="Email" placeholder="Email" required>
+            <label class="m-3" for="Email">
+              <input class="bg-light shadow-sm form-control border-0" type="email" id="Email" name="Email"
+                placeholder="Email" required>
             </label>
           </div>
-          <label for="Mensagem">
-            <textarea name="Mensagem" id="" cols="78" rows="13" placeholder="Mensagem" required></textarea>
+          <label class="m-3" for="Mensagem">
+            <textarea class="bg-light shadow-sm form-control border-0" name="Mensagem" id="" cols="52" rows="13"
+              placeholder="Mensagem" required></textarea>
           </label>
-          <button>Enviar</button>
-        </form>
-      </article>
-    </section>
-  </div>
-  </main>
+          <button class="btn btn-secondary m-3 col-3">Enviar</button>
+        </div>
+      </form>
+    </article>
+  </section>
 
-  <footer>
-    <div class="footer">
-      <p>Desenvolvido por Maurício Carrion</p>
+  <footer class="container-fluid bg-dark d-flex justify-content-center">
+    <div class="d-flex justify-content-center">
+      <h6 class="text-white align-self-center p-3 mb-0">Desenvolvido por Maurício Carrion</h6>
     </div>
   </footer>
+
+  <!--BootStrap java script-->
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
